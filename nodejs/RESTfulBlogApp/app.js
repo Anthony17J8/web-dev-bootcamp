@@ -89,6 +89,13 @@ app.put("/blogs/:id", function(req, res) {
 	});
 });
 
+// DELETE ROUTE
+app.delete("/blogs/:id", function(req, res) {
+	Blog.findByIdAndRemove(req.params.id, function(err) {
+		res.redirect("/blogs");
+	});
+});
+
 app.listen(port, function() {
 	console.log("Server has started!");
 });
