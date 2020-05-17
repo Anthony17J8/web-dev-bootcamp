@@ -55,7 +55,6 @@ app.post("/campgrounds", function(req, res) {
 			res.redirect("/campgrounds");
 		}
 	});
-
 });
 
 app.get("/campgrounds/new", function(req, res) {
@@ -72,7 +71,6 @@ app.get("/campgrounds/:id", function(req, res) {
 			res.render("campgrounds/show", {campground: foundCampground});
 		}
 	});
-
 });
 
 app.get("/campgrounds/:id/comments/new", function(req, res) {
@@ -126,8 +124,20 @@ app.post("/register", function(req, res) {
 			res.redirect("/campgrounds");
 		})
 	});
+});
 
+// show login form
+app.get("/login", function(req, res) {
+	res.render("login");
+});
 
+// handling login logic
+app.post("/login", passport.authenticate("local", 
+{
+	successRedirect: "/campgrounds",
+	failureRedirect: "/login"
+
+}), function(req, res) {
 });
 
 app.listen(port, function () {
