@@ -31,7 +31,7 @@ router.post("/", function(req, res) {
 
 // NEW - show form to create camground
 router.get("/new", function(req, res) {
-	res.render("comments/new");
+	res.render("campgrounds/new");
 });
 
 // SHOW - shows more info about one campground
