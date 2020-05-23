@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="20d6ea87-b9b5-48b1-a6ed-28d8b401a508" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/campgrounds.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/campgrounds.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/comments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -23,6 +52,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,10 +65,47 @@
       <option name="presentableId" value="Default" />
       <updated>1589608612880</updated>
       <workItem from="1589608614817" duration="122000" />
+      <workItem from="1590231320207" duration="348000" />
+      <workItem from="1590244918750" duration="590000" />
+      <workItem from="1590245599544" duration="1168000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2269" y="317" width="699" height="273" key="#Notifications" timestamp="1590231339883">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state x="2269" y="317" width="699" height="273" key="#Notifications/60.27.1540.873/1600.0.1600.900@1600.0.1600.900" timestamp="1590231339883" />
+    <state x="1858" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590246459845">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state x="1858" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/60.27.1540.873/1600.0.1600.900@1600.0.1600.900" timestamp="1590246459845" />
+    <state x="2144" y="193" width="501" height="520" key="FileChooserDialogImpl" timestamp="1590245498347">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state x="2144" y="193" width="501" height="520" key="FileChooserDialogImpl/60.27.1540.873/1600.0.1600.900@1600.0.1600.900" timestamp="1590245498347" />
+    <state x="1889" y="85" width="1022" height="737" key="SettingsEditor" timestamp="1590245834035">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state x="1889" y="85" width="1022" height="737" key="SettingsEditor/60.27.1540.873/1600.0.1600.900@1600.0.1600.900" timestamp="1590245834035" />
+    <state x="2052" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1590245694463">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state x="2052" y="221" width="672" height="678" key="search.everywhere.popup/60.27.1540.873/1600.0.1600.900@1600.0.1600.900" timestamp="1590245694463" />
   </component>
 </project>
