@@ -11,9 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20d6ea87-b9b5-48b1-a6ed-28d8b401a508" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/landing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/landing.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/landing.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/campground.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/campground.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/campgrounds.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/campgrounds.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/campgrounds/edit.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/campgrounds/edit.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/campgrounds/new.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/campgrounds/new.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/campgrounds/show.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/campgrounds/show.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +69,7 @@
       <workItem from="1590231320207" duration="348000" />
       <workItem from="1590244918750" duration="590000" />
       <workItem from="1590245599544" duration="1542000" />
-      <workItem from="1590295959441" duration="8692000" />
+      <workItem from="1590295959441" duration="10437000" />
     </task>
     <servers />
   </component>
@@ -112,9 +115,9 @@
       <screen x="1600" y="0" width="1600" height="900" />
     </state>
     <state x="1889" y="85" width="1022" height="737" key="SettingsEditor/60.27.1540.873/1600.0.1600.900@1600.0.1600.900" timestamp="1590245834035" />
-    <state x="2052" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1590302534245">
+    <state x="2052" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1590305559018">
       <screen x="1600" y="0" width="1600" height="900" />
     </state>
-    <state x="2052" y="221" width="672" height="678" key="search.everywhere.popup/60.27.1540.873/1600.0.1600.900@1600.0.1600.900" timestamp="1590302534245" />
+    <state x="2052" y="221" width="672" height="678" key="search.everywhere.popup/60.27.1540.873/1600.0.1600.900@1600.0.1600.900" timestamp="1590305559018" />
   </component>
 </project>
